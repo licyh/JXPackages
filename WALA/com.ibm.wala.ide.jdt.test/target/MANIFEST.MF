@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.ibm.wala.ide.jdt.test
+Bundle-Name: WALA CAst Java JDT Test Plug-in
+Bundle-Version: 1.3.10.v20170123-0259-b000
+Require-Bundle: com.ibm.wala.cast.java.test;bundle-version="1.0.0",com
+ .ibm.wala.cast.test;bundle-version="1.0.0",com.ibm.wala.ide.tests;bun
+ dle-version="1.1.3",com.ibm.wala.core.tests;bundle-version="1.1.3",co
+ m.ibm.wala.ide.jdt;bundle-version="1.0.0",com.ibm.wala.cast.java;bund
+ le-version="1.0.0",com.ibm.wala.cast;bundle-version="1.0.0",com.ibm.w
+ ala.ide;bundle-version="1.1.3",com.ibm.wala.core;bundle-version="1.1.
+ 3",com.ibm.wala.util;bundle-version="1.1.3",org.eclipse.core.resource
+ s;bundle-version="3.4.1",org.eclipse.jdt.core;bundle-version="3.4.2",
+ org.junit;bundle-version="4.0.0",org.eclipse.core.runtime,org.eclipse
+ .pde.core,org.eclipse.platform,org.eclipse.jdt.launching,org.eclipse.
+ ui.ide,org.eclipse.ui.ide.application,org.eclipse.ant.launching,org.e
+ clipse.jdt.launching.macosx;resolution:=optional,com.ibm.wala.cast.ja
+ va.ecj
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.ibm.wala.cast.java.jdt.test.Activator
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Eclipse-SourceReferences: scm:git:ssh://github.com:wala/WALA.git;path=
+ "com.ibm.wala.ide.jdt.test";commitId=50ce9601707945dceb7270ec8e1a8825
+ 24c5d36d
+Bundle-Vendor: IBM
+

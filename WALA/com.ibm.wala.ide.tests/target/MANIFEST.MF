@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.ibm.wala.ide.tests;singleton:=true
+Require-Bundle: com.ibm.wala.shrike,com.ibm.wala.core,com.ibm.wala.ide
+ ,com.ibm.wala.core.tests,org.eclipse.core.runtime,org.eclipse.core.re
+ sources,org.eclipse.jdt.core,org.eclipse.ui,org.eclipse.ui.ide,org.ec
+ lipse.osgi.services;bundle-version="3.3.100";resolution:=optional,org
+ .eclipse.e4.ui.model.workbench;bundle-version="0.10.1";resolution:=op
+ tional,org.eclipse.e4.core.di;bundle-version="1.2.0";resolution:=opti
+ onal,org.junit;bundle-version="4.0.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:ssh://github.com:wala/WALA.git;path=
+ "com.ibm.wala.ide.tests";commitId=50ce9601707945dceb7270ec8e1a882524c
+ 5d36d
+Bundle-Vendor: %providerName
+Export-Package: com.ibm.wala.ide.tests.util
+Bundle-Name: %pluginName
+Bundle-Version: 1.3.10.v20170123-0259-b000
+Bundle-Localization: plugin
+Bundle-Activator: com.ibm.wala.ide.test.Activator
+

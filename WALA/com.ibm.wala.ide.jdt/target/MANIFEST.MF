@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.ibm.wala.ide.jdt
+Export-Package: com.ibm.wala.cast.java.client,com.ibm.wala.cast.java.t
+ ranslator.jdt,com.ibm.wala.ide.jdt,com.ibm.wala.ide.util
+Bundle-Name: WALA IDE JDT components
+Bundle-Version: 1.3.10.v20170123-0259-b000
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,com.ibm.wala.c
+ ast,com.ibm.wala.cast.java,com.ibm.wala.core,com.ibm.wala.ide,com.ibm
+ .wala.shrike,com.ibm.wala.util,org.eclipse.core.resources,org.eclipse
+ .jdt.core,org.eclipse.pde.core,org.eclipse.ui.ide,org.eclipse.jdt.lau
+ nching,org.eclipse.jdt,com.ibm.wala.cast.java.ecj
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.ibm.wala.ide.jdt.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:ssh://github.com:wala/WALA.git;path=
+ "com.ibm.wala.ide.jdt";commitId=50ce9601707945dceb7270ec8e1a882524c5d
+ 36d
+Bundle-Vendor: IBM
+

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.ibm.wala.cast.test
+Export-Package: com.ibm.wala.cast.test
+Bundle-Name: CAst Test Plug-in
+Bundle-Version: 1.3.10.v20170123-0259-b000
+Require-Bundle: org.junit;bundle-version="4.0.0",com.ibm.wala.core.tes
+ ts,com.ibm.wala.cast,com.ibm.wala.core,com.ibm.wala.shrike,org.eclips
+ e.core.runtime
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Eclipse-SourceReferences: scm:git:ssh://github.com:wala/WALA.git;path=
+ "com.ibm.wala.cast.test";commitId=50ce9601707945dceb7270ec8e1a882524c
+ 5d36d
+Bundle-Vendor: IBM
+

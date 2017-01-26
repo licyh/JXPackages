@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='com.ibm.wala.cast.js.test.data' version='1.3.10.v20170123-0259-b000'>
+    <update id='com.ibm.wala.cast.js.test.data' range='[0.0.0,1.3.10.v20170123-0259-b000)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+      <property name='maven-groupId' value='com.ibm.wala'/>
+      <property name='maven-artifactId' value='com.ibm.wala.cast.js.test.data'/>
+      <property name='maven-version' value='1.3.10-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.ibm.wala.cast.js.test.data' version='1.3.10.v20170123-0259-b000'/>
+      <provided namespace='osgi.bundle' name='com.ibm.wala.cast.js.test.data' version='1.3.10.v20170123-0259-b000'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.ibm.wala.cast.js.test.data' version='1.3.10.v20170123-0259-b000'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.ibm.wala.cast.js.test.data;singleton:=true&#xA;Bundle-Version: 1.3.10.v20170123-0259-b000&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
