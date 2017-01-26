@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feature id="com.ibm.wala-feature.source" version="1.3.10.v20170123-0259-b000" label="%featureName" provider-name="%providerName">
-  <includes id="com.ibm.wala-feature" version="1.3.10.v20170123-0259-b000"/>
-  <plugin id="com.ibm.wala.core.source" version="1.3.10.v20170123-0259-b000" download-size="0" install-size="0" unpack="false"/>
-  <plugin id="com.ibm.wala.shrike.source" version="1.3.10.v20170123-0259-b000" download-size="0" install-size="0" unpack="false"/>
-  <plugin id="com.ibm.wala.cast.source" version="1.3.10.v20170123-0259-b000" download-size="0" install-size="0" unpack="false"/>
-  <plugin id="com.ibm.wala.cast.java.source" version="1.3.10.v20170123-0259-b000" download-size="0" install-size="0" unpack="false"/>
-  <plugin id="com.ibm.wala.util.source" version="1.3.10.v20170123-0259-b000" download-size="0" install-size="0" unpack="false"/>
-</feature>
